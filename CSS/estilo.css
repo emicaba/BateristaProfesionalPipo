@@ -1,0 +1,422 @@
+@charset "UTF-8";
+* {
+  margin: 0%;
+  padding: 0%; }
+
+.body {
+  background-color: black; }
+
+header {
+  background-image: url(../fotos/header/soypipo3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 0%;
+  background-position-y: 54%;
+  height: 100px; }
+
+.header__logo {
+  text-decoration: none;
+  color: #ffffff; }
+
+.header__logo__palabras--tituloPerez {
+  color: #FFB605;
+  font-family: Calligraffitti;
+  font-size: 40px;
+  font-weight: bold; }
+
+.header__logo__palabras--tituloPrincipal {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: Lora; }
+
+.header__logo__div {
+  padding-left: 15px; }
+
+nav {
+  z-index: 1;
+  background-image: linear-gradient(#FFB605, black);
+  font-family: Calligraffitti;
+  height: 60px; }
+
+.nav__alto {
+  height: 30px; }
+
+.nav__ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none; }
+
+.nav_li {
+  text-decoration: none;
+  color: #ffffff; }
+
+footer {
+  display: grid;
+  grid-template-columns: 100% 0%;
+  background-color: #FFB605;
+  height: 90px;
+  background-image: linear-gradient(black, #FFB605); }
+
+.footer__ul {
+  margin: 0;
+  margin-right: 50px;
+  padding: 0;
+  justify-self: end;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 10px; }
+
+.footer__menu {
+  margin-top: 30px;
+  list-style-type: none; }
+
+.footer__copyright {
+  color: #ffffff;
+  font-family: Calligraffitti;
+  font-size: 6px;
+  text-align: center;
+  margin-top: 30px; }
+
+.footer__logos {
+  height: 20px;
+  width: 20px; }
+
+.biografia__seccionUno {
+  margin: 2%; }
+
+.biografia__seccionUno__parrafo {
+  color: #8d7c7a96;
+  font-family: Nunito;
+  font-size: 10px;
+  font-weight: 400; }
+
+.biografia__seccionDos {
+  display: flex;
+  flex-direction: row; }
+
+.biografia__seccionDos__ul {
+  width: 50%;
+  margin: 4%; }
+
+.biografia__div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
+.biografia__seccionDos__li {
+  color: #8d7c7a96;
+  font-family: Nunito;
+  list-style-type: disc;
+  list-style-position: inside;
+  font-style: italic;
+  font-size: 10px; }
+
+.biografia__foto {
+  width: 226px;
+  height: 143px; }
+
+.biografia__subtitulo, .galeria__subtitulos, .contacto__titulo, .clase__seccionTablaUno__titulo {
+  color: #FFB605;
+  font-size: 10px;
+  font-family: Lora;
+  text-align: center; }
+
+.home__seccionUno {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto;
+  grid-template-areas: "tituloUno foto" "tituloDos foto"; }
+
+.home__seccionDos {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto;
+  grid-template-areas: "foto tituloUno" "foto tituloDos"; }
+
+.home__font {
+  font-family: Calligraffitti;
+  color: #ffffff;
+  justify-self: center;
+  align-self: center;
+  font-size: 10px;
+  text-align: center; }
+
+.home__foto {
+  width: 220px;
+  height: 122px; }
+
+.home__pocision__img {
+  grid-area: foto;
+  margin: 5%; }
+
+.galeria__seccionFotos {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-around; }
+
+img {
+  margin-top: 1%; }
+
+.galeria__videos {
+  width: 255px;
+  height: 127px;
+  margin-top: 2%;
+  margin-bottom: 2%; }
+
+.galeria__videos:hover {
+  transform: scale(1.1, 1.1); }
+
+.galeria__fotos {
+  height: 300px;
+  width: 400px;
+  margin-bottom: 50px; }
+
+.contacto__form {
+  color: #8d7c7a96;
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%; }
+
+.contacto__titulo {
+  margin-top: 2%; }
+
+table {
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 13px;
+  color: #FFB605; }
+
+td {
+  text-align: center; }
+
+.clase__seccionTablaUno {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "tabla foto" "mapa ." "consultas consultas";
+  align-items: center;
+  justify-content: center; }
+
+.clase__seccionTablaDos {
+  justify-self: center;
+  align-self: center; }
+
+.clase__seccionTablaUno__subtitulo {
+  color: #8d7c7a96;
+  align-self: center; }
+
+.clase__seccionTablaUno__titulo {
+  font-size: 11px; }
+
+.clase__seccionMapaUno {
+  display: grid;
+  grid-column: 100%;
+  grid-template-rows: auto auto auto;
+  justify-content: center;
+  margin-bottom: 10%; }
+
+.clase__seccionMapaDos {
+  text-align: start;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  color: #FFB605;
+  font-size: 11px;
+  font-family: Lora; }
+
+.clase__seccionMapaTres {
+  text-align: center;
+  margin-bottom: 2%;
+  margin-top: 2%; }
+
+.clase__link__div {
+  text-align: center;
+  margin: 1%;
+  grid-area: consultas; }
+
+.clase__link__texto {
+  display: inline-block;
+  margin: 1%;
+  color: #FFB605;
+  font-size: 15px;
+  font-family: Lora;
+  text-align: center; }
+
+.clase__foto {
+  height: 400px; }
+
+.clase__link__aqui {
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  display: inline-block; }
+
+@media only screen and (min-width: 600px) {
+  table {
+    font-size: 17px; }
+  .footer__copyright {
+    font-size: 12px; }
+  .footer__logos {
+    height: 25px;
+    width: 25px; }
+  .home__foto {
+    width: 272px;
+    height: 136px; }
+  .home__font {
+    font-size: 17px; }
+  .biografia__seccionDos__li {
+    font-size: 12px; }
+  .biografia__foto {
+    width: 252px;
+    height: 159px; }
+  .biografia__seccionUno__parrafo {
+    font-size: 12px; }
+  .biografia__subtitulo, .galeria__subtitulos, .contacto__titulo, .clase__seccionTablaUno__titulo {
+    font-size: 17px; }
+  .nav__alto {
+    height: 40px; }
+  .nav_li {
+    font-size: 20px; }
+  .galeria__fotos {
+    height: 400px;
+    width: 600px;
+    margin-bottom: 50px; }
+  .galeria__videos {
+    width: 283px;
+    height: 141px; }
+  .galeria__subtitulos {
+    font-size: 17px; }
+  .clase__foto {
+    height: 500px; }
+  .clase__link__texto {
+    font-size: 17px; }
+  .clase__seccionTablaUno__titulo {
+    font-size: 14px; }
+  .clase__seccionMapaDos {
+    font-size: 14px; }
+  .clase__link__aqui {
+    font-size: 14px; }
+  .contacto__titulo {
+    font-size: 17px; }
+  .contacto__form {
+    margin-left: 20%;
+    margin-right: 20%; }
+  /* .fotos{width:283px; height:141px} */ }
+
+/* DISPOSITIVOS MEDIOS */
+@media only screen and (min-width: 768px) {
+  table {
+    font-size: 20px; }
+  .home__foto {
+    width: 384px;
+    height: 192px; }
+  .home__font {
+    font-size: 20px; }
+  .biografia__seccionDos__li {
+    font-size: 15px; }
+  .biografia__foto {
+    width: 315px;
+    height: 198px; }
+  .biografia__seccionUno__parrafo {
+    font-size: 15px; }
+  .biografia__subtitulo, .galeria__subtitulos, .contacto__titulo, .clase__seccionTablaUno__titulo {
+    font-size: 20px; }
+  .footer__logos {
+    height: 20px;
+    width: 20px; }
+  .footer__copyright {
+    font-size: 15px; }
+  .nav__alto {
+    height: 50px; }
+  .nav_li {
+    font-size: 25px; }
+  .galeria__fotos {
+    height: 500px;
+    width: 800px;
+    margin-bottom: 50px; }
+  .galeria__videos {
+    width: 378px;
+    height: 189px; }
+  .galeria__subtitulos {
+    font-size: 20px; }
+  .clase__foto {
+    height: 600px; }
+  .clase__link__texto {
+    font-size: 20px; }
+  .clase__seccionTablaUno__titulo {
+    font-size: 16px; }
+  .clase__seccionMapaDos {
+    font-size: 16px; }
+  .clase__link__aqui {
+    font-size: 16px; }
+  .contacto__titulo {
+    font-size: 20px; }
+  .contacto__form {
+    margin-left: 25%;
+    margin-right: 25%; }
+  /* .fotos{width:378px; height:189px} */ }
+
+/* FIN DISPOSITIVOS PEQUEÑOS */
+/* DISPOSITIVOS GRANDES */
+@media only screen and (min-width: 1200px) {
+  table {
+    font-size: 25px; }
+  .footer__copyright {
+    font-size: 20px; }
+  .footer__logos {
+    height: 30px;
+    width: 30px; }
+  .home__foto {
+    width: 550px;
+    height: 300px; }
+  .home__font {
+    font-size: 25px; }
+  .biografia__seccionDos__li {
+    font-size: 20px; }
+  .biografia__foto {
+    width: 450px;
+    height: 284px; }
+  .biografia__seccionUno__parrafo {
+    font-size: 20px; }
+  .biografia__subtitulo, .galeria__subtitulos, .contacto__titulo, .clase__seccionTablaUno__titulo {
+    font-size: 25px; }
+  .nav__alto {
+    height: 55px; }
+  .nav_li {
+    font-size: 30px; }
+  .galeria__fotos {
+    height: 600px;
+    width: 1000px;
+    margin-bottom: 50px; }
+  .galeria__videos {
+    width: 540px;
+    height: 270px; }
+  .galeria__subtitulos {
+    font-size: 25px; }
+  .clase__foto {
+    height: 800px; }
+  .clase__link__texto {
+    font-size: 25px; }
+  .clase__seccionTablaUno__titulo {
+    font-size: 22px; }
+  .clase__seccionMapaDos {
+    font-size: 22px; }
+  .clase__link__aqui {
+    font-size: 22px; }
+  .contacto__titulo {
+    font-size: 25px; }
+  .contacto__form {
+    margin-left: 25%;
+    margin-right: 25%; }
+  /* .fotos{width:540px; height:270px} */ }
+
+/* COLORES USADOS */
+/* .color1 {color: #ffffff;}
+.color2 {color: #000000;}
+.color3 {color: #8d7c7a96;}
+.color4 {color: #FFB605;} */
