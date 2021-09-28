@@ -21,12 +21,12 @@ header {
 .header__logo__palabras--tituloPerez {
   color: #FFB605;
   font-family: Calligraffitti;
-  font-size: 40px;
+  font-size: 25px;
   font-weight: bold; }
 
 .header__logo__palabras--tituloPrincipal {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 15px;
   font-family: Lora; }
 
 .header__logo__div {
@@ -143,8 +143,8 @@ footer {
   text-align: center; }
 
 .home__foto {
-  width: 220px;
-  height: 122px; }
+  width: 170px;
+  height: 100px; }
 
 .home__pocision__img {
   grid-area: foto;
@@ -306,6 +306,10 @@ td {
   .contacto__form {
     margin-left: 20%;
     margin-right: 20%; }
+  .header__logo__palabras--tituloPrincipal {
+    font-size: 20px; }
+  .header__logo__palabras--tituloPerez {
+    font-size: 30px; }
   /* .fotos{width:283px; height:141px} */ }
 
 /* DISPOSITIVOS MEDIOS */
@@ -359,6 +363,10 @@ td {
   .contacto__form {
     margin-left: 25%;
     margin-right: 25%; }
+  .header__logo__palabras--tituloPrincipal {
+    font-size: 25px; }
+  .header__logo__palabras--tituloPerez {
+    font-size: 35px; }
   /* .fotos{width:378px; height:189px} */ }
 
 /* FIN DISPOSITIVOS PEQUEÑOS */
@@ -413,6 +421,10 @@ td {
   .contacto__form {
     margin-left: 25%;
     margin-right: 25%; }
+  .header__logo__palabras--tituloPrincipal {
+    font-size: 30px; }
+  .header__logo__palabras--tituloPerez {
+    font-size: 40px; }
   /* .fotos{width:540px; height:270px} */ }
 
 /* COLORES USADOS */

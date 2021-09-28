@@ -5,8 +5,8 @@
 
 header{background-image:url(../fotos/header/soypipo3.jpeg) ; background-repeat: no-repeat; background-size:cover; background-position-x: 0%;background-position-y:54%  ; height: 100px;}
 .header__logo{text-decoration: none; color: $colorLogo;}
-.header__logo__palabras--tituloPerez {color: $colorTitulos; font-family:Calligraffitti;font-size: 40px; font-weight: bold;}
-.header__logo__palabras--tituloPrincipal {color: $colorLogo; font-size: 30px;font-family: Lora;}
+.header__logo__palabras--tituloPerez {color: $colorTitulos; font-family:Calligraffitti;font-size: 25px; font-weight: bold;}
+.header__logo__palabras--tituloPrincipal {color: $colorLogo; font-size: 15px;font-family: Lora;}
 .header__logo__div{padding-left: 15px;}
 
 nav{z-index: 1; background-image: linear-gradient( $colorTitulos, black); font-family: Calligraffitti; height: 60px;}
@@ -32,7 +32,7 @@ footer{display: grid; grid-template-columns: 100% 0%; background-color: $colorTi
 .home__seccionUno{display: grid; grid-template-columns: 50% 50%; grid-template-rows: auto auto; grid-template-areas: "tituloUno foto" "tituloDos foto";}
 .home__seccionDos{display: grid; grid-template-columns: 50% 50%; grid-template-rows: auto auto; grid-template-areas: "foto tituloUno" "foto tituloDos";}
 .home__font{font-family: Calligraffitti; color: $colorLogo; justify-self: center; align-self: center; font-size: 10px;text-align: center;}
-.home__foto{width: 220px; height:122px}
+.home__foto{width: 170px; height: 100px}
 .home__pocision__img{grid-area: foto; margin: 5%;}
 
 .galeria__seccionFotos{display: flex; flex-wrap: wrap; align-content: space-between; justify-content: space-around;}
@@ -82,6 +82,8 @@ td{text-align: center;}
     .clase__link__aqui{font-size: 14px;}
     .contacto__titulo{font-size: 17px;}
     .contacto__form{margin-left: 20%; margin-right: 20%}
+    .header__logo__palabras--tituloPrincipal{font-size: 20px;}
+    .header__logo__palabras--tituloPerez{font-size: 30px;}
     /* .fotos{width:283px; height:141px} */
     
 }
@@ -110,6 +112,8 @@ table{font-size: 20px;}
 .clase__link__aqui{font-size: 16px;}
 .contacto__titulo{font-size: 20px;}
 .contacto__form{margin-left: 25%; margin-right: 25%}
+.header__logo__palabras--tituloPrincipal{font-size: 25px;}
+.header__logo__palabras--tituloPerez{font-size: 35px;}
 /* .fotos{width:378px; height:189px} */
 }
 /* FIN DISPOSITIVOS PEQUEÑOS */
@@ -137,6 +141,8 @@ table{font-size: 25px;}
 .clase__link__aqui{font-size: 22px;}
 .contacto__titulo{font-size: 25px;}
 .contacto__form{margin-left: 25%; margin-right: 25%}
+.header__logo__palabras--tituloPrincipal{font-size: 30px;}
+.header__logo__palabras--tituloPerez{font-size: 40px;}
 /* .fotos{width:540px; height:270px} */
 }
 
