@@ -56,34 +56,54 @@
 <!-- INICIO SECCION FOTOS -->
 <h1 class="galeria__subtitulos">FOTOS</h1>
 
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active" style="text-align: center">
-      <img src="fotos/galeria/show1.jpeg" class="galeria__fotos" class="d-block w-100" alt="foto de show">
-    </div>
-    <div class="carousel-item" style="text-align: center">
-      <img src="fotos/galeria/show2.jpg" class="galeria__fotos" class="d-block w-100" alt="foto de show">
-    </div>
-    <div class="carousel-item" style="text-align: center">
-      <img src="fotos/galeria/show3.jpg" class="galeria__fotos" class="d-block w-100" alt="foto de show">
-    </div>
-    <div class="carousel-item" style="text-align: center">
-      <img src="fotos/galeria/show4.jpg" class="galeria__fotos" class="d-block w-100" alt="foto de show">
-    </div>
-    <div class="carousel-item" style="text-align: center">
-      <img src="fotos/galeria/show5.jpg" class="galeria__fotos" class="d-block w-100" alt="foto de show">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+</button>
+<section class="galeria__seccionFotos"> 
+            <img class="fotos" src="fotos/galeria/show1.jpeg" alt="foto de show" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img class="fotos" src="fotos/galeria/show2.jpg" alt="foto de show" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img class="fotos" src="fotos/galeria/show3.jpg" alt="foto de show" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img class="fotos" src="fotos/galeria/show4.jpg" alt="foto de show" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img class="fotos" src="fotos/galeria/show5.jpg" alt="foto de show" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        </section>
 
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content galeria__modal" >
+      <div class="modal-header galeria__modal">
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body galeria__modal">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" style="text-align: center">                  
+              <img src="fotos/galeria/show1.jpeg" class="galeria__fotos" class="d-block w-100" alt="foto de show">
+            </div>
+            <div class="carousel-item" style="text-align: center">
+              <img src="fotos/galeria/show2.jpg" class="galeria__fotos" class="d-block w-100" alt="foto de show">
+            </div>
+            <div class="carousel-item" style="text-align: center">
+              <img src="fotos/galeria/show3.jpg" class="galeria__fotos" class="d-block w-100" alt="foto de show">
+            </div>
+            <div class="carousel-item" style="text-align: center">                  
+              <img src="fotos/galeria/show4.jpg" class="galeria__fotos" class="d-block w-100" alt="foto de show">
+            </div>
+            <div class="carousel-item" style="text-align: center">
+              <img src="fotos/galeria/show5.jpg" class="galeria__fotos" class="d-block w-100" alt="foto de show">
+            </div>
+          </div>
+        </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+    </div>
+  
+  </div>
+</div>
 <!-- FIN SECCION FOTOS -->
     </main>
 <!-- FIN DEL MAIN -->

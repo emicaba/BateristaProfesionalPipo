@@ -168,10 +168,26 @@ img {
 .galeria__videos:hover {
   transform: scale(1.1, 1.1); }
 
+.fotos:hover {
+  transform: scale(1.1, 1.1); }
+
+.fotos {
+  width: 255px;
+  height: 127px;
+  margin-top: 2%;
+  margin-bottom: 2%; }
+
 .galeria__fotos {
   height: 300px;
   width: 400px;
-  margin-bottom: 50px; }
+  margin-bottom: 10px;
+  margin-top: 0px; }
+
+.galeria__modal {
+  background-color: black;
+  border-bottom: black;
+  padding-top: 5px;
+  padding-bottom: 5px; }
 
 .contacto__form {
   color: #8d7c7a96;
@@ -310,7 +326,9 @@ td {
     font-size: 20px; }
   .header__logo__palabras--tituloPerez {
     font-size: 30px; }
-  /* .fotos{width:283px; height:141px} */ }
+  .fotos {
+    width: 283px;
+    height: 141px; } }
 
 /* DISPOSITIVOS MEDIOS */
 @media only screen and (min-width: 768px) {
@@ -367,7 +385,9 @@ td {
     font-size: 25px; }
   .header__logo__palabras--tituloPerez {
     font-size: 35px; }
-  /* .fotos{width:378px; height:189px} */ }
+  .fotos {
+    width: 378px;
+    height: 189px; } }
 
 /* FIN DISPOSITIVOS PEQUEÑOS */
 /* DISPOSITIVOS GRANDES */
@@ -398,7 +418,7 @@ td {
   .nav_li {
     font-size: 30px; }
   .galeria__fotos {
-    height: 600px;
+    height: 550px;
     width: 1000px;
     margin-bottom: 50px; }
   .galeria__videos {
@@ -425,7 +445,9 @@ td {
     font-size: 30px; }
   .header__logo__palabras--tituloPerez {
     font-size: 40px; }
-  /* .fotos{width:540px; height:270px} */ }
+  .fotos {
+    width: 540px;
+    height: 270px; } }
 
 /* COLORES USADOS */
 /* .color1 {color: #ffffff;}
