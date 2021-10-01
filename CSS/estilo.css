@@ -30,6 +30,8 @@ header {
   font-family: Lora; }
 
 .header__logo__div {
+  padding-top: 35px;
+  padding-bottom: 35px;
   padding-left: 15px; }
 
 nav {
@@ -272,14 +274,75 @@ td {
   text-align: center;
   display: inline-block; }
 
+@media only screen and (max-width: 400px) {
+  table {
+    font-size: 14px; }
+  .footer__copyright {
+    font-size: 4px; }
+  .footer__logos {
+    height: 15px;
+    width: 15px; }
+  .home__foto {
+    width: 110px;
+    height: 70px; }
+  .home__font {
+    font-size: 5px; }
+  .biografia__seccionDos__li {
+    font-size: 8px; }
+  .biografia__foto {
+    width: 110px;
+    height: 70px; }
+  .biografia__seccionUno__parrafo {
+    font-size: 8px; }
+  .biografia__subtitulo, .galeria__subtitulos, .contacto__titulo, .clase__seccionTablaUno__titulo {
+    font-size: 8px; }
+  .nav__alto {
+    height: 20px; }
+  .nav_li {
+    font-size: 10px; }
+  .galeria__fotos {
+    height: 70px;
+    width: 110px;
+    margin-bottom: 20px; }
+  .galeria__videos {
+    width: 110px;
+    height: 70px; }
+  .galeria__subtitulos {
+    font-size: 8px; }
+  .clase__foto {
+    height: 300px; }
+  .clase__link__texto {
+    font-size: 8px; }
+  .clase__seccionTablaUno__titulo {
+    font-size: 9px; }
+  .clase__seccionMapaDos {
+    font-size: 9px; }
+  .clase__link__aqui {
+    font-size: 9px; }
+  .contacto__titulo {
+    font-size: 9px; }
+  .contacto__form {
+    margin-left: 20%;
+    margin-right: 20%; }
+  .header__logo__palabras--tituloPrincipal {
+    font-size: 15px; }
+  .header__logo__palabras--tituloPerez {
+    font-size: 25px; }
+  .header__logo__div {
+    padding-top: 35px;
+    padding-bottom: 35px; }
+  .fotos {
+    width: 110px;
+    height: 70px; } }
+
 @media only screen and (min-width: 600px) {
   table {
     font-size: 17px; }
   .footer__copyright {
     font-size: 12px; }
   .footer__logos {
-    height: 25px;
-    width: 25px; }
+    height: 20px;
+    width: 20px; }
   .home__foto {
     width: 272px;
     height: 136px; }
@@ -300,8 +363,8 @@ td {
     font-size: 20px; }
   .galeria__fotos {
     height: 400px;
-    width: 600px;
-    margin-bottom: 50px; }
+    width: 550px;
+    margin-bottom: 20px; }
   .galeria__videos {
     width: 283px;
     height: 141px; }
@@ -326,12 +389,15 @@ td {
     font-size: 20px; }
   .header__logo__palabras--tituloPerez {
     font-size: 30px; }
+  .header__logo__div {
+    padding-top: 27px;
+    padding-bottom: 27px; }
   .fotos {
     width: 283px;
     height: 141px; } }
 
 /* DISPOSITIVOS MEDIOS */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 850px) {
   table {
     font-size: 20px; }
   .home__foto {
@@ -349,8 +415,8 @@ td {
   .biografia__subtitulo, .galeria__subtitulos, .contacto__titulo, .clase__seccionTablaUno__titulo {
     font-size: 20px; }
   .footer__logos {
-    height: 20px;
-    width: 20px; }
+    height: 25px;
+    width: 25px; }
   .footer__copyright {
     font-size: 15px; }
   .nav__alto {
@@ -358,9 +424,9 @@ td {
   .nav_li {
     font-size: 25px; }
   .galeria__fotos {
-    height: 500px;
-    width: 800px;
-    margin-bottom: 50px; }
+    height: 470px;
+    width: 730px;
+    margin-bottom: 20px; }
   .galeria__videos {
     width: 378px;
     height: 189px; }
@@ -385,6 +451,9 @@ td {
     font-size: 25px; }
   .header__logo__palabras--tituloPerez {
     font-size: 35px; }
+  .header__logo__div {
+    padding-top: 25px;
+    padding-bottom: 25px; }
   .fotos {
     width: 378px;
     height: 189px; } }
@@ -420,7 +489,7 @@ td {
   .galeria__fotos {
     height: 550px;
     width: 1000px;
-    margin-bottom: 50px; }
+    margin-bottom: 20px; }
   .galeria__videos {
     width: 540px;
     height: 270px; }
@@ -445,6 +514,9 @@ td {
     font-size: 30px; }
   .header__logo__palabras--tituloPerez {
     font-size: 40px; }
+  .header__logo__div {
+    padding-top: 20px;
+    padding-bottom: 20px; }
   .fotos {
     width: 540px;
     height: 270px; } }

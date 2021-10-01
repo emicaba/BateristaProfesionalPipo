@@ -7,7 +7,7 @@ header{background-image:url(../fotos/header/soypipo3.jpeg) ; background-repeat: 
 .header__logo{text-decoration: none; color: $colorLogo;}
 .header__logo__palabras--tituloPerez {color: $colorTitulos; font-family:Calligraffitti;font-size: 25px; font-weight: bold;}
 .header__logo__palabras--tituloPrincipal {color: $colorLogo; font-size: 15px;font-family: Lora;}
-.header__logo__div{padding-left: 15px;}
+.header__logo__div{padding-top: 35px; padding-bottom: 35px; padding-left: 15px;}
 
 nav{z-index: 1; background-image: linear-gradient( $colorTitulos, black); font-family: Calligraffitti; height: 60px;}
 .nav__alto{height: 30px;}
@@ -62,11 +62,38 @@ td{text-align: center;}
 .clase__foto{height: 400px;}
 .clase__link__aqui{text-decoration: none;color: $colorLogo; text-align: center; display: inline-block;}
 
+@media only screen and (max-width: 400px){
+    table{font-size: 14px;}
+    .footer__copyright{font-size: 4px}
+    .footer__logos{height: 15px;width: 15px;}
+    .home__foto{width:110px; height: 70px;}
+    .home__font{font-size: 5px;}
+    .biografia__seccionDos__li{font-size: 8px;}
+    .biografia__foto{width:110px; height:70px}
+    .biografia__seccionUno__parrafo{font-size: 8px;}
+    .biografia__subtitulo{font-size: 8px;}
+    .nav__alto{height: 20px;}
+    .nav_li{font-size: 10px;}
+    .galeria__fotos{height: 70px; width: 110px; margin-bottom: 20px;}
+    .galeria__videos{width:110px; height: 70px}
+    .galeria__subtitulos{font-size: 8px;}
+    .clase__foto{height: 300px;}
+    .clase__link__texto{font-size: 8px;}
+    .clase__seccionTablaUno__titulo{font-size: 9px;}
+    .clase__seccionMapaDos{font-size: 9px;}
+    .clase__link__aqui{font-size: 9px;}
+    .contacto__titulo{font-size: 9px;}
+    .contacto__form{margin-left: 20%; margin-right: 20%}
+    .header__logo__palabras--tituloPrincipal{font-size: 15px;}
+    .header__logo__palabras--tituloPerez{font-size: 25px;}
+    .header__logo__div{padding-top: 35px; padding-bottom: 35px;}
+    .fotos{width: 110px; height:70px}
+}
 
 @media only screen and (min-width: 600px){ 
     table{font-size: 17px;}
     .footer__copyright{font-size: 12px}
-    .footer__logos{height: 25px;width: 25px;}
+    .footer__logos{height: 20px;width: 20px;}
     .home__foto{width:272px; height: 136px;}
     .home__font{font-size: 17px;}
     .biografia__seccionDos__li{font-size: 12px;}
@@ -75,7 +102,7 @@ td{text-align: center;}
     .biografia__subtitulo{font-size: 17px;}
     .nav__alto{height: 40px;}
     .nav_li{font-size: 20px;}
-    .galeria__fotos{height: 400px; width: 600px; margin-bottom: 50px;}
+    .galeria__fotos{height: 400px; width: 550px; margin-bottom: 20px;}
     .galeria__videos{width:283px; height:141px}
     .galeria__subtitulos{font-size: 17px;}
     .clase__foto{height: 500px;}
@@ -87,12 +114,13 @@ td{text-align: center;}
     .contacto__form{margin-left: 20%; margin-right: 20%}
     .header__logo__palabras--tituloPrincipal{font-size: 20px;}
     .header__logo__palabras--tituloPerez{font-size: 30px;}
+    .header__logo__div{padding-top: 27px; padding-bottom: 27px;}
     .fotos{width:283px; height:141px}    
 }
 
 
 /* DISPOSITIVOS MEDIOS */
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 850px){
 table{font-size: 20px;}
 .home__foto{width:384px; height: 192px}
 .home__font{font-size: 20px;}
@@ -100,11 +128,11 @@ table{font-size: 20px;}
 .biografia__foto{width:315px; height:198px}
 .biografia__seccionUno__parrafo{font-size: 15px;}
 .biografia__subtitulo{font-size: 20px;}
-.footer__logos{height: 20px;width: 20px;}
+.footer__logos{height: 25px;width: 25px;}
 .footer__copyright{font-size: 15px}
 .nav__alto{height: 50px;}
 .nav_li{font-size: 25px;}
-.galeria__fotos{height: 500px; width: 800px; margin-bottom: 50px;}
+.galeria__fotos{height: 470px; width: 730px; margin-bottom: 20px;}
 .galeria__videos{width:378px; height:189px}
 .galeria__subtitulos{font-size: 20px;}
 .clase__foto{height: 600px;} 
@@ -116,6 +144,7 @@ table{font-size: 20px;}
 .contacto__form{margin-left: 25%; margin-right: 25%}
 .header__logo__palabras--tituloPrincipal{font-size: 25px;}
 .header__logo__palabras--tituloPerez{font-size: 35px;}
+.header__logo__div{padding-top: 25px; padding-bottom: 25px;}
 .fotos{width:378px; height:189px}
 }
 /* FIN DISPOSITIVOS PEQUEÑOS */
@@ -133,7 +162,7 @@ table{font-size: 25px;}
 .biografia__subtitulo{font-size: 25px;}
 .nav__alto{height: 55px;}
 .nav_li{font-size: 30px;}
-.galeria__fotos{height: 550px; width: 1000px; margin-bottom: 50px;}
+.galeria__fotos{height: 550px; width: 1000px; margin-bottom: 20px;}
 .galeria__videos{width:540px; height:270px}
 .galeria__subtitulos{font-size: 25px;}
 .clase__foto{height: 800px}
@@ -145,6 +174,7 @@ table{font-size: 25px;}
 .contacto__form{margin-left: 25%; margin-right: 25%}
 .header__logo__palabras--tituloPrincipal{font-size: 30px;}
 .header__logo__palabras--tituloPerez{font-size: 40px;}
+.header__logo__div{padding-top: 20px; padding-bottom: 20px;}
 .fotos{width:540px; height:270px}
 }
 
