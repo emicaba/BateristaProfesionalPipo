@@ -37,20 +37,36 @@ header {
 nav {
   z-index: 1;
   background-image: linear-gradient(#FFB605, black);
-  font-family: Calligraffitti;
-  height: 60px; }
+  font-family: Calligraffitti; }
 
 .nav__alto {
-  height: 30px; }
+  height: 60px; }
+
+.ayuda {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px; }
 
 .nav__ul {
   display: flex;
   justify-content: space-around;
-  list-style-type: none; }
+  flex-direction: row;
+  list-style-type: none;
+  white-space: break-spaces; }
 
 .nav_li {
   text-decoration: none;
-  color: #ffffff; }
+  color: #ffffff;
+  justify-content: space-around; }
+
+.nav__diseño {
+  color: white; }
+
+#nav__ul {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  list-style-type: none; }
 
 footer {
   display: grid;
@@ -204,6 +220,9 @@ img {
 .contacto__titulo {
   margin-top: 2%; }
 
+a:hover {
+  color: #fff; }
+
 table {
   font-family: Nunito;
   font-weight: 400;
@@ -297,7 +316,7 @@ td {
   .biografia__subtitulo, .galeria__subtitulos, .contacto__titulo, .clase__seccionTablaUno__titulo {
     font-size: 8px; }
   .nav__alto {
-    height: 20px; }
+    height: 60px; }
   .nav_li {
     font-size: 10px; }
   .galeria__fotos {
@@ -358,7 +377,7 @@ td {
   .biografia__subtitulo, .galeria__subtitulos, .contacto__titulo, .clase__seccionTablaUno__titulo {
     font-size: 17px; }
   .nav__alto {
-    height: 40px; }
+    height: 60px; }
   .nav_li {
     font-size: 20px; }
   .galeria__fotos {
@@ -420,7 +439,7 @@ td {
   .footer__copyright {
     font-size: 15px; }
   .nav__alto {
-    height: 50px; }
+    height: 60px; }
   .nav_li {
     font-size: 25px; }
   .galeria__fotos {
@@ -483,7 +502,7 @@ td {
   .biografia__subtitulo, .galeria__subtitulos, .contacto__titulo, .clase__seccionTablaUno__titulo {
     font-size: 25px; }
   .nav__alto {
-    height: 55px; }
+    height: 60px; }
   .nav_li {
     font-size: 30px; }
   .galeria__fotos {
