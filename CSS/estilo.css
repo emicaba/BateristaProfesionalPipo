@@ -6,6 +6,11 @@
 .body {
   background-color: black; }
 
+.logoWhatsapp {
+  position: fixed;
+  bottom: 70px;
+  right: 40px; }
+
 header {
   background-image: url(../fotos/header/soypipo3.jpeg);
   background-repeat: no-repeat;
@@ -55,6 +60,8 @@ nav {
   white-space: break-spaces; }
 
 .nav_li {
+  margin-right: 40Px;
+  margin-left: 30px;
   text-decoration: none;
   color: #ffffff;
   justify-content: space-around; }
@@ -67,6 +74,9 @@ nav {
   justify-content: space-around;
   flex-direction: row;
   list-style-type: none; }
+
+.nav__burguerStyle {
+  background-image: linear-gradient(#FFB605, black); }
 
 footer {
   display: grid;
@@ -103,7 +113,7 @@ footer {
   margin: 2%; }
 
 .biografia__seccionUno__parrafo {
-  color: #8d7c7a96;
+  color: #d3cac996;
   font-family: Nunito;
   font-size: 10px;
   font-weight: 400; }
@@ -123,7 +133,7 @@ footer {
   justify-content: space-around; }
 
 .biografia__seccionDos__li {
-  color: #8d7c7a96;
+  color: #d3cac996;
   font-family: Nunito;
   list-style-type: disc;
   list-style-position: inside;
@@ -208,7 +218,7 @@ img {
   padding-bottom: 5px; }
 
 .contacto__form {
-  color: #8d7c7a96;
+  color: #d3cac996;
   font-family: Nunito;
   font-weight: 400;
   font-size: 20px;
@@ -245,7 +255,7 @@ td {
   align-self: center; }
 
 .clase__seccionTablaUno__subtitulo {
-  color: #8d7c7a96;
+  color: #d3cac996;
   align-self: center; }
 
 .clase__seccionTablaUno__titulo {
@@ -504,7 +514,9 @@ td {
   .nav__alto {
     height: 60px; }
   .nav_li {
-    font-size: 30px; }
+    font-size: 30px;
+    margin-right: 50Px;
+    margin-left: 40px; }
   .galeria__fotos {
     height: 550px;
     width: 1000px;

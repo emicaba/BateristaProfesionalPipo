@@ -2,7 +2,7 @@
 *{margin: 0%; padding: 0%;}
 
 .body{background-color: black;}
-
+.logoWhatsapp{position: fixed; bottom: 70px; right: 40px;}
 header{background-image:url(../fotos/header/soypipo3.jpeg) ; background-repeat: no-repeat; background-size:cover; background-position-x: 0%;background-position-y:54%  ; height: 100px;}
 .header__logo{text-decoration: none; color: $colorLogo;}
 .header__logo__palabras--tituloPerez {color: $colorTitulos; font-family:Calligraffitti;font-size: 25px; font-weight: bold;}
@@ -13,9 +13,10 @@ nav{z-index: 1; background-image: linear-gradient( $colorTitulos, black); font-f
 .nav__alto{height: 60px;}
 .ayuda{display: flex; justify-content: space-around; width: 1000px;}
 .nav__ul{display:flex; justify-content: space-around; flex-direction: row; list-style-type: none; white-space: break-spaces;}
-.nav_li{text-decoration: none; color: $colorLogo; justify-content: space-around;}
+.nav_li{margin-right: 40Px; margin-left: 30px; text-decoration: none; color: $colorLogo; justify-content: space-around;}
 .nav__diseño{color: white;}
 #nav__ul{display:flex; justify-content: space-around; flex-direction: row; list-style-type: none;}
+.nav__burguerStyle{background-image: linear-gradient($colorTitulos, black);}
 
 footer{display: grid; grid-template-columns: 100% 0%; background-color: $colorTitulos;height: 90px;background-image: linear-gradient( black, $colorTitulos)}
 .footer__ul{margin: 0; margin-right: 50px; padding: 0; justify-self: end; display: grid; grid-template-columns: auto auto auto; grid-column-gap: 10px;}
@@ -165,7 +166,7 @@ table{font-size: 25px;}
 .biografia__seccionUno__parrafo{font-size: 20px;}
 .biografia__subtitulo{font-size: 25px;}
 .nav__alto{height: 60px;}
-.nav_li{font-size: 30px;}
+.nav_li{font-size: 30px;margin-right: 50Px; margin-left: 40px}
 .galeria__fotos{height: 550px; width: 1000px; margin-bottom: 20px;}
 .galeria__videos{width:540px; height:270px}
 .galeria__subtitulos{font-size: 25px;}
